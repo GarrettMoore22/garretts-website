@@ -1,0 +1,10 @@
+  .customNavbar {
+    color: orangered;
+  }
+
+  .ContainerSize {
+    background-color: orangered;
+    width:500px;
+    align-items: flex-start;
+  }
+
