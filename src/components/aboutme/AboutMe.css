@@ -1,10 +1,10 @@
 
   .about-me__text {
-    color: rgb(0, 0, 0);
+    color: #D7E3E5;
     text-align: center;
   }
 
   .text-container {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }

@@ -9,10 +9,10 @@ function App() {
   return (
     <HashRouter>
     <Header/>  
-      <Switch>
-          <Route path="/about-me" component={AboutMe} />
+      <Switch>        
           <Route path="/work" component={Work} />
           <Route path="/projects" component={Projects} />
+          <Route path="/" component={AboutMe} />
       </Switch>
     </HashRouter>
   );
