@@ -11,7 +11,7 @@ function Header() {
             <div className="header-top">
                 <div className="header-top__logo">
                     <a href="/#/" className="header-logo">
-                        <img className="garrett-picture" src={Garrett}></img>
+                        <img className="garrett-picture" src={Garrett} alt="garrett"></img>
                     </a>
                 </div>
                 <div className="header-top__navbar">
@@ -24,12 +24,12 @@ function Header() {
             <div className="header-bottom">
                 <div className="header-bottom__github">
                     <a href="https://github.com/GarrettMoore22" className="github-logo">
-                        <img className="github-logo" src={GithubLogo}></img>
+                        <img className="github-logo" src={GithubLogo} alt="github logo"></img>
                     </a>
                 </div>
                 <div className="header-bottom__email">
                     <a href="garrett22smoore@gmail.com" className="github-logo">
-                        <img className="github-logo" src={EmailLogo}></img>
+                        <img className="github-logo" src={EmailLogo} alt="email logo"></img>
                     </a>
                 </div>
             </div>
