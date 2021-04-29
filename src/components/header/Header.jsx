@@ -23,12 +23,12 @@ function Header() {
             </div>
             <div className="header-bottom">
                 <div className="header-bottom__github">
-                    <a href="https://github.com/GarrettMoore22" className="github-logo">
+                    <a href="https://github.com/GarrettMoore22" target="_blank" className="github-logo">
                         <img className="github-logo" src={GithubLogo} alt="github logo"></img>
                     </a>
                 </div>
                 <div className="header-bottom__email">
-                    <a href="garrett22smoore@gmail.com" className="github-logo">
+                    <a href="mailto:garrett22smoore@gmail.com" className="github-logo">
                         <img className="github-logo" src={EmailLogo} alt="email logo"></img>
                     </a>
                 </div>
