@@ -1,15 +1,17 @@
 .projects {
-    margin: 100px;
+    margin: 50px 50px 0px 50px;
 }
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
     grid-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
 }
 
 .project {
-    background-color: lightblue;
+    background-color: #D9DAFB;
 }
 
 .job-active {
@@ -17,13 +19,29 @@
 }
 
 .project-container {
-    background-color: rgb(210, 231, 255);
+    background-color: #D9DAFB;
     border-radius: 20px;
 }
 
-.project-image {
-    display: flex;
-    height: 50%;
-    width: 50%;
+.project-container .project-title {
+    text-align: center;
 }
 
+.project-container .project-description {
+    text-align: center;
+}
+
+.project-container .github-link {
+    text-align: center;
+    text-decoration: bold;   
+    margin: none; 
+}
+
+.project-container .project-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

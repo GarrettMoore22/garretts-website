@@ -8,12 +8,13 @@
     margin-right: auto;
     grid-gap: 10px;
     margin-bottom: 20px;
+    width: 70vw;
 }
 
 .job-container {
     display: inline;
     width: 100%;
-    background-color: rgb(210, 231, 255);
+    background-color: #D9DAFB;
     border-radius: 20px;
 }
 
