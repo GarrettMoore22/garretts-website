@@ -2,6 +2,7 @@ import React from 'react';
 import "./Projects.css"
 import SnowPass from "../images/SnowPass.jpg"
 import SpaceAge from "../images/SpaceAge.png"
+import Ninja from "../images/NinjaGame.png"
 
 function Projects() {
     return (
@@ -41,6 +42,20 @@ function Projects() {
                         <p className="github-link">Download</p>
                     </a>
                     <img src={SpaceAge} className="project-image" alt="Spaceage"></img>
+                </div>
+                <div className="project-container">
+                    <h2 className="project-title">Ninja Apocalypse</h2>
+                    <p className="project-description">
+                        A game built from scratch using the Ogre engine, made for a final 
+                        project in my game engine architecture class. The player faces waves
+                        of increasingly stronger enemies, and can only use weapons found throughout
+                        the map, each with limited amounts of ammo. I handled all of the visuals as 
+                        well as sound design for the game, as well as composed original theme music. 
+                    </p>
+                    <a className="github-link" href="https://github.com/ErylKenner/Ninja-Apocalypse">
+                        <p className="github-link">Github Repository</p>
+                    </a>
+                    <img src={Ninja} className="project-image" alt="Ninjagame"></img>
                 </div>
             </div>
         </div>
