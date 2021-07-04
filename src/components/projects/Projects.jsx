@@ -3,6 +3,7 @@ import "./Projects.css"
 import SnowPass from "../images/SnowPass.jpg"
 import SpaceAge from "../images/SpaceAge.png"
 import Ninja from "../images/NinjaGame.png"
+import Sagebrush from "../images/Sagebrush.PNG"
 
 function Projects() {
     return (
@@ -23,6 +24,21 @@ function Projects() {
                         <p className="github-link">SnowPass</p>
                     </a>
                     <img src={SnowPass} className="project-image" alt="SnowPass"></img>
+                </div>
+                <div className="project-container">
+                    <h2 className="project-title">Sagebrush</h2>
+                    <p className="project-description">
+                        The Nevada Sagebrush is the main website that I worked on in my Webmaster position.
+                        Even though I did not create the site, I performed a significant amount of maintenance
+                        on the site. I set up the advertising slots in the header and sidebar that rotate 
+                        between multiple clients, created the popup ad that is currently in place as well as 
+                        the ad slot under the navigation bar, migrated the site twice to different hosting providers,
+                        and set up the server that it currently is hosted at. 
+                    </p>
+                    <a className="github-link" href="http://nevadasagebrush.com/">
+                        <p className="github-link">Nevada Sagebrush</p>
+                    </a>
+                    <img src={Sagebrush} className="project-image" alt="SageBrush"></img>
                 </div>
                 <div className="project-container">
                     <h2 className="project-title">Space Age</h2>
