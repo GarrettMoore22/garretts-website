@@ -1,0 +1,50 @@
+.work-main-section{
+    flex-direction: column;
+}
+
+.job {
+    display: flex;
+}
+
+.job-title {
+    color: white;
+    min-width: 25vw;
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.job-dates {
+    min-width: 20vw;
+    font-size: 10px;
+}
+
+.job-title span {
+    background-color: #8467b6;
+    border-radius: 5px;
+}
+
+@media only screen and (min-device-width: 120px) and (max-device-width: 900px) {
+
+    .job {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .job-title {
+        color: white;
+        min-width: 25vw;
+        font-size: 15px;
+        margin-left: 0;
+    }
+    
+    .job-dates {
+        min-width: 20vw;
+        font-size: 10px;
+    }
+    
+    .job-title span {
+        background-color: #8467b6;
+        border-radius: 5px;
+    }
+
+  }

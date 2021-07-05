@@ -1,0 +1,35 @@
+.garrett-name {
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+}
+
+.garrett-name span {
+    background-color: #3570C9;
+    border-radius: 5px;
+}
+
+.home-main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-device-width: 120px) and (max-device-width: 900px) {
+
+    .garrett-name {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: white;
+    }
+
+    .image-wrapper img {
+        display: none;
+    }
+    
+    .garrett-name span {
+        background-color: #3570C9;
+        border-radius: 5px;
+    }
+
+  }
+

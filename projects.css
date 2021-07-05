@@ -1,0 +1,49 @@
+.project {
+    display: flex;
+}
+
+.project-name {
+    color:white;  
+    min-width: 20vw;
+}
+
+.project-name span {
+    background-color: #666bc1;
+    border-radius: 5px;
+}
+
+.project-photo img{
+    max-height: 20vh;
+}
+
+@media only screen and (min-device-width: 120px) and (max-device-width: 900px) {
+
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-name {
+        color:white;  
+        min-width: 10vw;
+        font-size: 15px;
+    }
+
+    .project-description {
+        min-width: 30vw;
+        font-size: 10px;
+    }
+    
+    .project-name span {
+        background-color: #666bc1;
+        border-radius: 5px;
+    }
+    
+    .project-photo img{
+        max-height: 20vh;
+    }
+    
+    .logo {
+        height: 150px;
+    }
+  }
