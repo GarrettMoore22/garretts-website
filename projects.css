@@ -29,14 +29,6 @@
         font-size: 15px;
     }
 
-    .project-name a:link {
-        text-decoration: none;
-    }
-
-    .project-name h1:link {
-        text-decoration: none;
-    }
-
     .project-description {
         min-width: 30vw;
         font-size: 10px;
