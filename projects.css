@@ -29,6 +29,14 @@
         font-size: 15px;
     }
 
+    .project-name a:link {
+        text-decoration: none;
+    }
+
+    .project-name h1:link {
+        text-decoration: none;
+    }
+
     .project-description {
         min-width: 30vw;
         font-size: 10px;
@@ -37,6 +45,7 @@
     .project-name span {
         background-color: #666bc1;
         border-radius: 5px;
+        text-decoration: none;
     }
     
     .project-photo img{
