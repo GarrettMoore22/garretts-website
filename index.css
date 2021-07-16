@@ -23,12 +23,18 @@
     }
 
     .image-wrapper img {
-        display: none;
+        width: 100%;
     }
     
     .garrett-name span {
         background-color: #3570C9;
         border-radius: 5px;
+    }
+
+    .home-main-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
   }
