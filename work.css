@@ -13,6 +13,13 @@
     margin-left: 0;
 }
 
+.job-location {
+    color: black;
+    min-width: 15vw;
+    font-size: 12px;
+    margin-left: 0;
+}
+
 .job-dates {
     min-width: 20vw;
     font-size: 10px;
